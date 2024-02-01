@@ -3,17 +3,15 @@ package vectores;
 public class Asignatura {
 
 	
-	private int asignaturas[];
 	private String nombre;
-	private int nota;
-	private int contador;
+	private int primeraEvaluacion;
+	private int segundaEvaluacion;
+	private int terceraEvaluacion;
 	
 	
-	public Asignatura(int cuantas) {
-		
-		asignaturas = new int[cuantas];
-		contador = 0;
+	
+	
+
 	}
-	hola
 	
-}
+
