@@ -1,15 +1,20 @@
 package vectores;
 
+import java.util.Arrays;
+
 public class Alumno {
 
 	private String nombre;
 	private String apellido;
 	private int telefonoDeContacto;
-	private int asignaturas[];
+	private Asignatura asignaturas[];
 	private int contador;
 	
 	
-	
+	public String toString() {
+		
+		return "["+nombre +" , "+ apellido +" , "+ Arrays.toString(asignaturas)+"]";
+	}
 	
 	
 	public Alumno(String nombre, String apellido) {
@@ -20,7 +25,7 @@ public class Alumno {
 	}
 	
 	
-	public int Add(int numero) {
+	public int Add(Asignatura numero) {
 		
 		if(contador < asignaturas.length) {
 			
